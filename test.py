@@ -1,3 +1,4 @@
+# -*- coding=utf-8
 # python3.4 爬虫教程
 # 倒入文件  （python3  将urllib 和urllib2合并成为一个
 import urllib.request
