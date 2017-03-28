@@ -1,4 +1,5 @@
-import urllib.request
+# coding=utf-8
+import urllib.request  # 3.x 版本的库
 import http.cookiejar
 
 
