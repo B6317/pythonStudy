@@ -1,3 +1,4 @@
+# coding=utf-8
 import gzip
 import re
 import http.cookiejar

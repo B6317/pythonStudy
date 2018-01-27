@@ -37,4 +37,5 @@ def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
             raise IOError('refusenik user')
         print complaint
 
+
 ask_ok('ok')

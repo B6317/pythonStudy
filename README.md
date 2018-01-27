@@ -1,1 +1,1 @@
-"# pythonStudy" 
+# pythonStudy
