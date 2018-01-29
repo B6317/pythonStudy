@@ -1,5 +1,6 @@
 # coding=utf-8
 # create by toonew at 2018/1/28
+from __future__ import print_function
 import re
 
 import operator
@@ -19,12 +20,12 @@ with open('./test_4.txt') as f:
             dic[word.lower()] += 1
         line = f.readline()
 
-print words
-print len(words)
-print dic
+print(words)
+print(len(words))
+print(dic)
 # items取出键值对，以(x,y)形式，operator.ite（取出指定位置的值），reverse默认倒序
 sorted_x = sorted(dic.items(), key=operator.itemgetter(1), reverse=True)
-print sorted_x
+print(sorted_x)
 
 # with 等价于下面，他简化的是关闭这一套。。语法糖 http://blog.csdn.net/suwei19870312/article/details/23258495/
 # f2 = open("./test_4.txt")

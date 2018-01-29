@@ -1,5 +1,6 @@
 # coding=utf-8
 # create by toonew at 2018/1/28
+from __future__ import print_function
 import random
 import string
 
@@ -10,4 +11,4 @@ def active_code(count, length):  # 激活码生成
 
 
 if __name__ == "__main__":
-    print active_code(10, 16)
+    print(active_code(10, 16))
