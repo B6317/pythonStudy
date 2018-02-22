@@ -1,1 +1,1 @@
-# pythonStudy
+# Python Study Project
