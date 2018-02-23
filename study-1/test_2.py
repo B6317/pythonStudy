@@ -10,7 +10,8 @@ cursor = db.cursor()
 try:
     sql = "SELECT * FROM EMPLOYEE"
     cursor.execute(sql)
-except:
+except Exception as e:
+    print(e)
     cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
 
     # 创建数据表SQL语句
