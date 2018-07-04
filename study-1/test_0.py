@@ -3,6 +3,8 @@ from __future__ import print_function  # 检测兼容性
 from PIL import ImageDraw, ImageFont, Image
 
 
+# https://pillow.readthedocs.io/en/5.1.x/installation.html
+
 def add_font(img):
     draw = ImageDraw.Draw(img)
     my_font = ImageFont.truetype("C:/windows/fonts/Arial.ttf", size=40)
